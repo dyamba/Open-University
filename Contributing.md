@@ -70,14 +70,43 @@ Projeyi kendi dilinize çevirerek katkıda bulunabilirsiniz. Çeviri dosyaları 
 
 ### Gereksinimler
 
-xxxxxxx
-xxxxxxx
-xxxxxxx
-xxxxxxx
-xxxxxxx
-xxxxxxx
-xxxxxxx
+```bash
+# Temel gereksinimler
+Node.js >= 18.x
+npm >= 9.x veya yarn >= 1.22
+Docker >= 24.x
+Docker Compose >= 2.x
+Git >= 2.x
 
+# Veritabanı
+PostgreSQL >= 15.x
+
+# Önbellek
+Redis >= 7.x
+```
+
+### Kurulum
+
+```bash
+# Repoyu klonlayın
+git clone https://github.com/[kullanici-adi]/open-university.git
+cd open-university
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Ortam değişkenlerini ayarlayın
+cp .env.example .env
+
+# Docker ile servisleri başlatın
+docker-compose up -d
+
+# Veritabanı migration'larını çalıştırın
+npm run db:migrate
+
+# Geliştirme sunucusunu başlatın
+npm run dev
+```
 
 ### Proje Yapısı
 
@@ -360,7 +389,7 @@ Her modül şunları sağlamalıdır:
 
 - **GitHub Discussions** — Genel tartışmalar ve sorular
 - **GitHub Issues** — Hata bildirimleri ve özellik istekleri
-- **Discord** — Anlık iletişim (yakında belki?)
+- **Discord** — Anlık iletişim (yakında)
 
 ### Toplantılar
 
