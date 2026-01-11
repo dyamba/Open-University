@@ -93,8 +93,7 @@ Rehber için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakınız.
 
 ## İletişim
 
-[İletişim bilgilerinizi buraya ekleyin]
-
+unsalaslan@gmail.com
 ---
 
 *Küresel eğitim topluluğu için ❤️ ile geliştirilmiştir*
