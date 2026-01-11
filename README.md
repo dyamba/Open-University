@@ -93,8 +93,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Contact
 
-[Add your contact information here]
-
+unsalaslan@gmail.com
 ---
 
 *Built with ❤️ for the global education community*
